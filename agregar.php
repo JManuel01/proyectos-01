@@ -13,6 +13,7 @@ $query = pg_query($dbconn3 , "INSERT INTO invex (campana,panoramix,carrier,ip,es
 			//echo $query;
 			if($query!=null){
 				print "<script>alert(\"Agregado exitosamente.\");window.location='../ver.php';</script>";
+				
 			}else{
 				print "<script>alert(\"No se pudo agregar.\");window.location='../ver.php';</script>";
 
